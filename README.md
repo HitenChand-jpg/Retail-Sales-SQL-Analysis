@@ -4,11 +4,13 @@
 
 This project analyzes a retail sales dataset using Microsoft SQL Server. It demonstrates SQL skills ranging from basic filtering and aggregation to advanced analytical queries using Joins, Correlated Subqueries, Common Table Expressions (CTEs), and Window Functions.
 
-The objective of this project is to answer real-world business questions and extract meaningful insights from retail sales data.
+The project consists of **25+ SQL business questions** designed to simulate real-world retail analytics scenarios, covering concepts from basic SQL queries to advanced analytical techniques.
+
+The objective is to answer business questions, analyze customer purchasing behavior, and extract meaningful insights from retail sales data.
 
 ---
 
-## 📂 Dataset
+# 📂 Dataset
 
 The project uses a retail sales dataset containing transaction-level information.
 
@@ -16,21 +18,21 @@ The project uses a retail sales dataset containing transaction-level information
 
 | Column | Description |
 |--------|-------------|
-| transactions_id | Unique transaction ID |
-| sale_date | Date of purchase |
-| sale_time | Time of purchase |
-| customer_id | Customer identifier |
-| gender | Customer gender |
-| age | Customer age |
-| category | Product category |
-| quantity | Quantity purchased |
-| price_per_unit | Price per unit |
-| cogs | Cost of goods sold |
-| total_sale | Total sale amount |
+| transactions_id | Unique Transaction ID |
+| sale_date | Date of Purchase |
+| sale_time | Time of Purchase |
+| customer_id | Customer Identifier |
+| gender | Customer Gender |
+| age | Customer Age |
+| category | Product Category |
+| quantity | Quantity Purchased |
+| price_per_unit | Price per Unit |
+| cogs | Cost of Goods Sold |
+| total_sale | Total Sale Amount |
 
 ---
 
-## 📁 Project Structure
+# 📁 Project Structure
 
 ```
 Retail-Sales-SQL-Analysis/
@@ -48,7 +50,95 @@ Retail-Sales-SQL-Analysis/
 
 ---
 
-## 📊 SQL Concepts Used
+# 📝 SQL Problems Solved
+
+This project contains solutions to **25+ SQL business problems**, progressing from beginner to advanced level.
+
+The project covers:
+
+- Data Validation
+- Data Cleaning
+- Filtering Records
+- Sorting Results
+- Aggregate Functions
+- GROUP BY
+- HAVING
+- CASE Statements
+- INNER JOIN
+- LEFT JOIN
+- Correlated Subqueries
+- Common Table Expressions (CTEs)
+- Window Functions
+- ROW_NUMBER()
+- DENSE_RANK()
+- LAG()
+- LEAD()
+- Running Totals
+- Customer Ranking
+- Category-wise Analysis
+- City-wise Sales Analysis
+- Customer Purchase Trend Analysis
+- Top-N Analysis
+- Consecutive Purchase Analysis
+- Business Insight Generation
+
+---
+
+# 📊 Business Questions Answered
+
+Some of the business questions solved include:
+
+- Display transactions by category
+- Find customers based on age criteria
+- Analyze high-value transactions
+- Identify top-selling categories
+- Calculate sales statistics
+- Compare category performance
+- Identify top customers
+- Find customers without purchases
+- Compare transactions against average sales
+- Analyze customer purchase trends
+- Calculate running sales totals
+- Detect consecutive purchases
+- Rank customers by sales within categories
+- Rank customers by sales within cities
+- Calculate customer contribution to city sales
+
+---
+
+# 🛠 Additional Work
+
+The original dataset contained only the **retail_sales** table.
+
+To simulate a real-world relational database environment and practice advanced SQL JOIN operations, I independently designed and created an additional **Customers** table.
+
+The sample customer table includes:
+
+- Customer ID
+- Customer Name
+- City
+- Membership Type (Gold, Silver, Platinum)
+
+This table was populated with sample data and used to perform:
+
+- INNER JOIN
+- LEFT JOIN
+- Customer-level Sales Analysis
+- City-wise Sales Analysis
+- Membership-based Sales Analysis
+- Customer Ranking using Window Functions
+
+---
+
+# 🛠 Tools Used
+
+- Microsoft SQL Server
+- SQL Server Management Studio (SSMS)
+- GitHub
+
+---
+
+# 💡 SQL Concepts Demonstrated
 
 - SELECT
 - WHERE
@@ -62,63 +152,36 @@ Retail-Sales-SQL-Analysis/
 - Correlated Subqueries
 - Common Table Expressions (CTEs)
 - Window Functions
-  - ROW_NUMBER()
-  - DENSE_RANK()
-  - LAG()
-  - LEAD()
-  - Running Totals
+- ROW_NUMBER()
+- DENSE_RANK()
+- LAG()
+- LEAD()
+- Running Totals
 
 ---
 
-## 📈 Business Problems Solved
-
-- Data validation and cleaning
-- Category-wise sales analysis
-- Customer purchasing behavior
-- High-value customer identification
-- Sales trend analysis
-- Running sales calculations
-- Top-performing customers
-- Ranking customers within each category
-- Ranking customers within each city
-- Correlated subquery analysis
-- Consecutive purchase analysis using CTEs
-- Window function based business insights
-
----
-
-## 🛠 Additional Work
-
-To perform JOIN operations and advanced SQL analysis, I created a separate **Customers** table and populated it with sample customer data. This allowed me to practice real-world relational database queries involving customer details and sales transactions.
-
----
-
-## 🛠 Tools Used
-
-- Microsoft SQL Server
-- SQL Server Management Studio (SSMS)
-- GitHub
-
----
-
-## 🎯 Skills Demonstrated
+# 🎯 Skills Demonstrated
 
 - SQL Query Writing
 - Data Validation
 - Data Cleaning
-- Data Aggregation
+- Data Exploration
 - Business Analysis
 - Relational Database Design
 - Joins
 - Window Functions
 - Common Table Expressions (CTEs)
 - Correlated Subqueries
+- Analytical Thinking
 - GitHub Project Documentation
 
 ---
 
-## 📌 Author
+
+# 👨‍💻 Author
 
 **Hiten Chand**
 
 B.Tech Student | Delhi Technological University (DTU)
+
+GitHub: **HitenChand-jpg**
